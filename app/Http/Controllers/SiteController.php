@@ -28,7 +28,7 @@ class SiteController extends Controller
                 echo $value;
             }
         }
-        $fp = fopen('C:\Users\sukee\PhpstormProjects\fileread\storage\sample1.csv', 'w');
+        $fp = fopen('C:\Users\PhpstormProjects\fileread\storage\sample1.csv', 'w');
 
 
         foreach ($students as $fields) {
